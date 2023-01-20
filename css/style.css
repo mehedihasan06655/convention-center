@@ -1,0 +1,136 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-area {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.carousel-caption h5{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.carousel-caption p{
+    line-height: 24px;
+    text-align: center;
+    font-size: 15px;
+}
+.parent-div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.album-area {
+    padding: 100px 0;
+}
+
+.album-parent h3 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+
+.price-box-top h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
+
+.price-box-top h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #231D4F;
+}
+
+.price-box-top p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+
+ul.price-list li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    list-style: none;
+    color: #848199;
+    padding: 5px 0;
+}
+
+ul.price-list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.price-list li i {
+    margin-right: 10px;
+}
+.price-box .btn {
+    background: #f496d133;
+    width: 100%;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px;
+    margin-top: 22px;
+}
+.package-area {
+    margin-bottom: 100px;
+}
+
+h3.package-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+p.card-text {
+    padding: 30px 54px 20px;
+}
+h2.client-title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+}
+
+.card {
+    box-shadow: 0px 5px 5px 3px #eee7e7;
+}
+.quastion-area {
+    margin: 100px 0;
+}
+
+h3.quastion-title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+@media screen and (max-width:576px) {
+    .parent-div {
+        flex-direction: column;
+    }
+}
